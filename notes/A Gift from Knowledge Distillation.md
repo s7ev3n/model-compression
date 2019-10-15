@@ -4,7 +4,7 @@
  * @Author: s7ev3n
  * @Github: https://github.com/s7ev3n
  * @LastEditors: s7ev3n
- * @LastEditTime: 2019-10-14 21:07:12
+ * @LastEditTime: 2019-10-15 11:04:39
  -->
 # A Gift from Knowledge Distillation: Fast Optimization, Network Minimization and Transfer Learning
 
@@ -22,6 +22,5 @@
 - 学习过程: 1. 最小化S和T之间FSP矩阵的loss; 2.student网络再接下来正常训练, 可以与Teacher相同的任务也可以不同
 
 ## Experiments
-- 第一个fast optimization实验, 用了一个和teacher一样的结构的student进行学习过程1, 训练过程2继续正常的与label进行训练, student网络比teacher收敛更快, 大概用1/3的iters就达到了相同结果, 最后结果更好超过了teacher; 这里最小化FSP只是为了initial weight????
+- 第一个fast optimization实验, 用了一个和teacher一样的结构的student进行学习过程1, 训练过程2继续正常的与label进行训练, student网络比teacher收敛更快, 大概用1/3的iters就达到了相同结果, 最后结果更好超过了teacher; 这里最小化FSP只是为了initial weight?
 
-看不下去了, 也没讲FSP的ablation study, 啰啰嗦嗦
